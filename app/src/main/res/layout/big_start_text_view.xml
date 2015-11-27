@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/start_character"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="46sp"
+        android:text="T"
+        android:layout_marginTop="-13dp"
+        android:paddingRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/topright_text"
+        style="@style/TextAppearance.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/start_character"
+        android:maxLines="2"
+        android:text="he boss when it comes to pie and eating stuff that reps resents the world that we currently live in. get the money dollar dollar bills yall."/>
+
+    <TextView
+        android:id="@+id/bottom_text"
+        style="@style/TextAppearance.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topright_text"
+        android:text="the boss when it comes to pie and eating stuff that reps resents the world that we currently live in. get the money dollar dollar bills yall."/>
+
+</RelativeLayout>
