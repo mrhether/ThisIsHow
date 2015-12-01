@@ -23,7 +23,7 @@ public class ProjectController extends BaseViewController<ProjectController.Proj
         void onProjectChanged(Project project);
     }
 
-    private Project createStubProject() {
+    public static Project createStubProject() {
         Project project = new Project();
         project.setTitle("Concrete Lamp");
         project.setDescription("This is for fun. A lamp from concrete easily can be made by yourself with quite simple tools and materials. Of course there are some steps must be noted to achieve good results. Exactly these steps I would like to show in a short video.\n" +

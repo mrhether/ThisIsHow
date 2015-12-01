@@ -8,9 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.WeakHashMap;
 
-/**
- * Created by markhetherington on 2015-11-19.
- */
 public abstract class BaseViewController<LISTENER> {
 
     protected WeakHashMap<LISTENER, Object> mListeners = new WeakHashMap<>();
