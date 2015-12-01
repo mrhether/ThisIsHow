@@ -8,9 +8,6 @@ import com.markhetherington.thisishow.models.User;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by markhetherington on 2015-11-19.
- */
 public class ProjectController extends BaseViewController<ProjectController.ProjectControllerListener> {
 
     @Override

@@ -5,9 +5,6 @@ import com.markhetherington.thisishow.models.Project;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by markhetherington on 2015-11-26.
- */
 public class FeedController extends BaseViewController<FeedController.FeedControllerListener> {
 
     @Override
